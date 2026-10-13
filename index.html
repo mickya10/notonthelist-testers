@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Not On The List - Join the test</title>
+<meta property="og:title" content="Not On The List - be one of the first players">
+<meta property="og:description" content="You are the bouncer and the rules change every night. A fast, funny swipe game for Android. Free, offline. Join the test.">
+<meta property="og:image" content="icon-192.png">
+<link rel="icon" href="icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root { --ink: #1d1630; --gold: #ffd23f; --blue: #ff4fd8; --cyan: #33e1ff; --green: #3ee07a; --cream: #fff6e6; }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; font-family: "Fredoka", system-ui, sans-serif; font-weight: 500; color: var(--ink);
+    background: radial-gradient(120% 70% at 50% 0%, #3d1a5c, #1a0b2e 70%) fixed, #1a0b2e; }
+  main { max-width: 480px; margin: 0 auto; padding: 18px 16px 36px; }
+  .hero { text-align: center; }
+  .logo { font-size: 54px; font-weight: 700; letter-spacing: -1px; line-height: 1; margin: 6px 0 2px;
+    text-shadow: 3px 0 0 var(--ink), -3px 0 0 var(--ink), 0 3px 0 var(--ink), 0 -3px 0 var(--ink), 2px 2px 0 var(--ink), -2px -2px 0 var(--ink), 2px -2px 0 var(--ink), -2px 2px 0 var(--ink), 0 7px 0 rgba(0,0,0,.18); }
+  .logo .a { color: var(--cyan); font-size: 34px; display: block; } .logo .b { color: var(--blue); }
+  .tag { font-weight: 600; color: #fff; opacity: .85; margin: 6px 0 0; }
+  .bean { display: block; height: 220px; width: auto; margin: 8px auto -6px; animation: bob 2.6s ease-in-out infinite; transform-origin: 50% 100%; }
+  @keyframes bob { 50% { transform: scale(1.03, .97); } }
+  .card { background: var(--cream); border: 3px solid var(--ink); border-radius: 22px; box-shadow: 0 5px 0 var(--ink); padding: 18px 16px; margin-top: 10px; }
+  h2 { font-size: 22px; margin: 0 0 6px; text-align: center; }
+  p { line-height: 1.45; margin: 0 0 10px; font-size: 16px; }
+  ul.perks { list-style: none; padding: 0; margin: 4px 0 4px; }
+  ul.perks li { margin: 6px 0; font-size: 16px; }
+  .step { display: flex; gap: 12px; align-items: flex-start; margin: 16px 0 6px; }
+  .num { flex: 0 0 34px; height: 34px; border-radius: 50%; background: var(--blue); border: 3px solid var(--ink); color: #fff; font-weight: 700; display: grid; place-items: center; font-size: 17px; }
+  .step > div { flex: 1; }
+  .step b.t { display: block; font-size: 18px; margin-bottom: 2px; }
+  .btn { display: block; text-align: center; text-decoration: none; color: var(--ink); font-weight: 700; font-size: 19px; padding: 13px 16px; border-radius: 16px; border: 3px solid var(--ink); box-shadow: 0 5px 0 var(--ink); margin-top: 10px; }
+  .btn.blue { background: var(--blue); color: #fff; text-shadow: 0 2px 0 rgba(0,0,0,.25); }
+  .btn.gold { background: var(--gold); }
+  .btn:active { transform: translateY(4px); box-shadow: 0 1px 0 var(--ink); }
+  .wait { background: #fff1c2; border: 2px dashed #e0a800; border-radius: 14px; padding: 10px 12px; font-size: 15px; line-height: 1.4; margin: 6px 0; }
+  .note { font-size: 14px; opacity: .75; margin-top: 8px; line-height: 1.4; }
+  .note a { color: inherit; }
+  footer { text-align: center; color: #d9c9ff; font-size: 13px; margin-top: 16px; font-weight: 600; }
+</style>
+</head>
+<body>
+<main>
+  <div class="hero">
+    <div class="logo"><span class="a">NOT ON</span><span class="b">THE LIST</span></div>
+    <p class="tag">you're the bouncer · the rules change every night</p>
+    <img class="bean" src="tony.webp" alt="Big Tony the bouncer">
+  </div>
+
+  <div class="card">
+    <h2>Be one of the first players!</h2>
+    <p>Not On The List is a fast, funny swipe game for Android. Read tonight's door rules, then swipe guests in or out in about a second each. A bell can change the rules mid-shift. Three wrong calls and you're fired!</p>
+    <ul class="perks">
+      <li>🚪 100 shifts in 5 venues: night club, castle, space airlock, Noah's ark, award show</li>
+      <li>👽 Aliens in disguise, animals in pairs, VIPs who beat every rule</li>
+      <li>📅 Daily Door: the same guests for everyone, keep your streak</li>
+      <li>🕶️ 9 bouncers to collect · free, plays offline</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Join the test in 2 steps</h2>
+    <p>Use the same Google account that is signed in to the Play Store on your Android phone.</p>
+    <div class="wait" id="inapp-note" hidden><b>Heads-up:</b> you're in an in-app browser that isn't signed in to Google, so the buttons below open <b>Chrome</b> (or the Play Store), where your Google account is.</div>
+
+    <div class="step">
+      <span class="num">1</span>
+      <div>
+        <b class="t">Join the testers group</b>
+        On the page that opens, tap <b>Join group</b>. The group never sends email.
+        <a class="btn blue" id="btn-join" href="https://groups.google.com/g/notonthelist-testers/about" target="_blank" rel="noopener">Join the group</a>
+      </div>
+    </div>
+
+    <div class="step">
+      <span class="num">2</span>
+      <div>
+        <b class="t">Become a tester and install</b>
+        Open the tester page, tap <b>Become a tester</b>, then install from Google Play.
+        <a class="btn gold" id="btn-optin" href="https://play.google.com/apps/testing/com.masoft.notonthelist" target="_blank" rel="noopener">Become a tester</a>
+        <a class="btn gold" id="btn-install" href="https://play.google.com/store/apps/details?id=com.masoft.notonthelist" target="_blank" rel="noopener">Install from Google Play</a>
+        <div class="note">More than one Google account on your phone? On the tester page, tap the round picture at the top right and pick the account your Play Store uses.</div>
+      </div>
+    </div>
+
+    <div class="wait"><b>Please be patient:</b> after joining, Google Play can take from a few minutes up to a few hours to show you the app. If it says "Item not found", that's normal: try again a bit later.</div>
+    <p style="margin-top:12px"><b>Please keep it installed for at least 2 weeks</b> and play a few shifts. Tell us what you loved and what was confusing: it really helps us launch!</p>
+  </div>
+  <footer>MA Soft · Not On The List · Android closed test</footer>
+</main>
+<script>
+(function () {
+  // Page events for Grafana, relayed by the mmw-site-events Cloudflare Worker (my-english-world/cloudflare-worker/site-events.js).
+  var EVENTS_URL = "https://mmw-site-events.miav55555.workers.dev/";
+  var SERVICE = "NotOnTheList Site";
+  var PAGE_VERSION = "1";
+  var params = new URLSearchParams(location.search);
+  var ua = navigator.userAgent || "";
+  var ref = document.referrer || "";
+  var source = params.get("utm_source") || (/taboola/i.test(ref) ? "taboola" : ref ? "referral" : "direct");
+  var platform = /Android/i.test(ua) ? "android" : /iPhone|iPad|iPod/i.test(ua) ? "ios" : "desktop";
+  var inApp = /FBAN|FBAV/i.test(ua) ? "facebook" : /Instagram/i.test(ua) ? "instagram" : /TikTok/i.test(ua) ? "tiktok" : /WhatsApp/i.test(ua) ? "whatsapp" : /Telegram/i.test(ua) ? "telegram" : /\bwv\b/.test(ua) ? "webview" : "none";
+  var isBot = /bot|crawl|spider|slurp|facebookexternalhit|Twitterbot|Googlebot|bingbot|Applebot|WhatsApp|TelegramBot/i.test(ua) ? "true" : "false";
+  var base = { source: source, medium: params.get("utm_medium") || "", campaign: params.get("utm_campaign") || "", referrer: ref.slice(0, 200), platform: platform, in_app_browser: inApp, is_bot: isBot, lang: (navigator.language || "").slice(0, 8) };
+  function esc(v) { var s = String(v); return /[ ="]/.test(s) ? '"' + s.replace(/\\/g, "\\\\").replace(/"/g, '\\"') + '"' : (s || '""'); }
+  function send(name) {
+    var parts = ["event=" + esc(name), "app_version=" + esc(PAGE_VERSION)];
+    for (var k in base) parts.push("event_data_" + k + "=" + esc(base[k]));
+    var payload = { streams: [{ stream: { service_name: SERVICE, deployment_environment: "production", kind: "event" }, values: [[String(Date.now()) + "000000", parts.join(" ")]] }] };
+    try { fetch(EVENTS_URL, { method: "POST", headers: { "Content-Type": "text/plain" }, body: JSON.stringify(payload), keepalive: true }); } catch (e) {}
+  }
+  // In-app browsers (Taboola, Facebook, ...) aren't signed in to Google, so joining the group or opting in fails there.
+  // On Android, hand those links to Chrome with an intent URL, and the install link to the Play Store app.
+  if (platform === "android" && inApp !== "none") {
+    base.flow = "chrome_intent";
+    document.getElementById("inapp-note").hidden = false;
+    ["btn-join", "btn-optin"].forEach(function (id) {
+      var a = document.getElementById(id), url = a.href;
+      a.href = "intent://" + url.replace(/^https:\/\//, "") + "#Intent;scheme=https;package=com.android.chrome;S.browser_fallback_url=" + encodeURIComponent(url) + ";end";
+      a.removeAttribute("target");
+    });
+    var inst = document.getElementById("btn-install");
+    inst.href = "market://details?id=com.masoft.notonthelist";
+    inst.removeAttribute("target");
+  }
+  send("landing_view");
+  ["btn-join", "btn-optin", "btn-install"].forEach(function (id) {
+    document.getElementById(id).addEventListener("click", function () { send(id.replace("btn-", "") + "_click"); });
+  });
+})();
+</script>
+</body>
+</html>
